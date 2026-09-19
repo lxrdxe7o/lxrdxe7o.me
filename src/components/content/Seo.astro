@@ -59,4 +59,4 @@ if (graph.length === 0) graph.push(sitePersonData);
 <meta name="twitter:image" content={cardUrl} />
 {publishedAt && <meta property="article:published_time" content={publishedAt.toISOString()} />}
 {updatedAt && <meta property="article:modified_time" content={updatedAt.toISOString()} />}
-<script type="application/ld+json" set:html={serializeStructuredData(graph)} />
+<script is:inline type="application/ld+json" set:html={serializeStructuredData(graph)} />

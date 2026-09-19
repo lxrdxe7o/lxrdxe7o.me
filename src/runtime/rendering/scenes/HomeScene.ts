@@ -65,7 +65,7 @@ export class HomeScene extends BaseScene {
     this.cameraRig.setReducedMotion(manifest.reducedMotion);
   }
 
-  protected onEnter(previous: SceneState | null): void {
+  protected onEnter(_previous: SceneState | null): void {
   }
 
   protected onUpdate(frame: Frame): void {
@@ -88,7 +88,7 @@ export class HomeScene extends BaseScene {
     this.cameraRig.setPointer(position);
   }
 
-  protected onExit(next: SceneState | null): void {
+  protected onExit(_next: SceneState | null): void {
   }
 
   protected onDispose(): void {

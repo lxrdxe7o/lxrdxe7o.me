@@ -1,6 +1,3 @@
-
-
-import { Vector2 } from 'three';
 import {
   ACESFilmicToneMapping,
   SRGBColorSpace,
