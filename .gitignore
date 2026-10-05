@@ -24,6 +24,7 @@ dist-ssr
 *.sw?
 .tanstack/
 .empryo/
+.omo/
 
 # Astro
 .astro/
